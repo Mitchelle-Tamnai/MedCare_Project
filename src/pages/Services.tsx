@@ -1,22 +1,7 @@
-import React from 'react';
-import { Shield, UserCheck, Activity, Baby, Stethoscope, Heart } from 'lucide-react';
+import { Activity, Baby, Stethoscope, Heart } from 'lucide-react';
 
 export default function Services() {
   const services = [
-    {
-      icon: Shield,
-      title: "In-Patient Services",
-      description: "Comprehensive 24/7 inpatient care with comfortable private and semi-private rooms, skilled nursing staff, and coordinated medical care for complex conditions.",
-      features: ["Private & Semi-Private Rooms", "24/7 Nursing Care", "Specialized Medical Units", "Patient Support Services"],
-      color: "blue"
-    },
-    {
-      icon: UserCheck,
-      title: "Out-Patient Services",
-      description: "Convenient outpatient care including consultations, routine check-ups, diagnostic tests, and follow-up appointments without hospital admission.",
-      features: ["Same-Day Appointments", "Diagnostic Testing", "Specialist Consultations", "Follow-up Care"],
-      color: "teal"
-    },
     {
       icon: Activity,
       title: "Emergency Services",
@@ -111,7 +96,7 @@ export default function Services() {
               Schedule Appointment
             </button>
             <button className="border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-600 hover:text-white transition-colors">
-              Call (555) 123-4567
+              Call (+254) 123-4567
             </button>
           </div>
         </div>

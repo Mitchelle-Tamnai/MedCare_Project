@@ -51,9 +51,9 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-1">Phone Numbers</h3>
-                    <p className="text-gray-600">General Inquiries: (555) 123-4567</p>
-                    <p className="text-gray-600">Appointments: (555) 123-4568</p>
-                    <p className="text-red-600 font-semibold">Emergency: (555) 911-0000</p>
+                    <p className="text-gray-600">General Inquiries: (+254) 07123-4567</p>
+                    <p className="text-gray-600">Appointments: (+254) 07123-4568</p>
+                    <p className="text-red-600 font-semibold">Emergency: (+254) 07123-0000</p>
                   </div>
                 </div>
                 
@@ -212,7 +212,7 @@ export default function Contact() {
               Call 911
             </a>
             <a href="tel:5559110000" className="border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-red-600 transition-colors">
-              Emergency Line: (555) 911-0000
+              Emergency Line: (+254) 07123-0000
             </a>
           </div>
         </div>
