@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { Heart } from 'lucide-react';
 
@@ -31,16 +30,15 @@ export default function Footer() {
             <h5 className="text-lg font-semibold mb-4">Services</h5>
             <ul className="space-y-2 text-gray-400">
               <li>Emergency Care</li>
-              <li>In-Patient Services</li>
-              <li>Out-Patient Services</li>
               <li>Maternity Care</li>
+              <li>Specialist Care</li>
             </ul>
           </div>
           
           <div>
             <h5 className="text-lg font-semibold mb-4">Emergency</h5>
             <p className="text-gray-400 mb-2">24/7 Emergency Services</p>
-            <p className="text-2xl font-bold text-red-400">(555) 911-0000</p>
+            <p className="text-2xl font-bold text-red-400">(+254) 07123-0000</p>
           </div>
         </div>
         
